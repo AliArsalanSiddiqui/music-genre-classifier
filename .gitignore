@@ -1,0 +1,9 @@
+processed.json
+__pycache__
+.ipynb_checkpoints
+genres_Original
+images_original
+weights
+features_3_sec.csv
+features_30_sec.csv
+music-genre-classifier.zip
