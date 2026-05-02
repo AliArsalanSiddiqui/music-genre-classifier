@@ -3,7 +3,8 @@ __pycache__
 .ipynb_checkpoints
 genres_Original
 images_original
-weights
+weights/lstm_weights.keras
+weights/weights.keras
 features_3_sec.csv
 features_30_sec.csv
 music-genre-classifier.zip
