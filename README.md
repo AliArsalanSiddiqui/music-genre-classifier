@@ -101,9 +101,9 @@ See the deployment section in the project report PDF for full cloud deployment i
 
 | Model | Test Accuracy | Epochs |
 |-------|--------------|--------|
-| Dense NN | ~66% | 100 |
-| **CNN (selected)** | **~78%** | **30** |
-| LSTM | ~72% | 30 |
+| Dense NN | ~58.14% | 100 |
+| **CNN (selected)** | **~69.68%** | **30** |
+| LSTM | ~63.76% | 30 |
 
 ---
 
