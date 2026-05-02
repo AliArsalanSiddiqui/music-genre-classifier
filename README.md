@@ -1,6 +1,8 @@
-AI Music Genre Classifier
-
+## 🎵 AI Music Genre Classifier
+   
 An end-to-end AI-powered music genre classification web app built with a CNN trained on the GTZAN dataset, served via FastAPI, with a modern drag-and-drop frontend.
+    
+link to deployed webservice: https://music-genre-classifier-j13y.onrender.com
 
 ---
 
@@ -17,8 +19,8 @@ An end-to-end AI-powered music genre classification web app built with a CNN tra
 ## 📁 Project Structure
 
 ```
-musicccc/
-├── aai-mini-project.ipynb   # Training notebook
+music-genre-classifier/
+├── main.ipynb   # Training notebook
 ├── server.py                # FastAPI backend
 ├── index.html               # Frontend UI
 ├── requirements.txt         # Python dependencies
@@ -57,7 +59,7 @@ py -3.11 -m ipykernel install --user --name py311 --display-name "Python 3.11"
 ```
 
 ### 4. Train the model
-- Open `aai-mini-project.ipynb` in Jupyter
+- Open `main.ipynb` in Jupyter
 - Switch kernel to **Python 3.11**
 - Update paths in the notebook:
   - `save_mfcc(...)` → use `"genres_original"` and `"processed.json"`
@@ -68,7 +70,7 @@ py -3.11 -m ipykernel install --user --name py311 --display-name "Python 3.11"
 
 ### 5. Start the server
 ```bash
-cd path\to\musicccc
+cd path\to\music-genre-classifier
 py -3.11 -m uvicorn server:app --reload
 ```
 
@@ -99,13 +101,13 @@ See the deployment section in the project report PDF for full cloud deployment i
 
 | Model | Test Accuracy | Epochs |
 |-------|--------------|--------|
-| Dense NN | ~66% | 100 |
-| **CNN (selected)** | **~78%** | **30** |
-| LSTM | ~72% | 30 |
+| Dense NN | ~58.14% | 100 |
+| **CNN (selected)** | **~69.68%** | **30** |
+| LSTM | ~63.76% | 30 |
 
 ---
 
 ## 📚 Dataset
 
-[GTZAN Music Genre Classification](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) — 1000 audio clips, 10 genres, 30 seconds each.
-dataset original + processed with wieghts: https://www.kaggle.com/datasets/aliaralan67/gtzan-dataset-original-processed-with-wieghts
+[GTZAN Music Genre Classification (dataset original + processed with wieghts)](https://www.kaggle.com/datasets/aliaralan67/gtzan-dataset-original-processed-with-wieghts) — 1000 audio clips, 10 genres, 30 seconds each.
+     
