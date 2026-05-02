@@ -109,6 +109,5 @@ See the deployment section in the project report PDF for full cloud deployment i
 
 ## 📚 Dataset
 
-[GTZAN Music Genre Classification](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) — 1000 audio clips, 10 genres, 30 seconds each.
+[GTZAN Music Genre Classification (dataset original + processed with wieghts)](https://www.kaggle.com/datasets/aliaralan67/gtzan-dataset-original-processed-with-wieghts) — 1000 audio clips, 10 genres, 30 seconds each.
      
-dataset original + processed with wieghts: https://www.kaggle.com/datasets/aliaralan67/gtzan-dataset-original-processed-with-wieghts
