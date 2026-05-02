@@ -17,8 +17,8 @@ link to deployed webservice: https://music-genre-classifier-j13y.onrender.com
 ## 📁 Project Structure
 
 ```
-musicccc/
-├── aai-mini-project.ipynb   # Training notebook
+music-genre-classifier/
+├── main.ipynb   # Training notebook
 ├── server.py                # FastAPI backend
 ├── index.html               # Frontend UI
 ├── requirements.txt         # Python dependencies
@@ -68,7 +68,7 @@ py -3.11 -m ipykernel install --user --name py311 --display-name "Python 3.11"
 
 ### 5. Start the server
 ```bash
-cd path\to\musicccc
+cd path\to\music-genre-classifier
 py -3.11 -m uvicorn server:app --reload
 ```
 
