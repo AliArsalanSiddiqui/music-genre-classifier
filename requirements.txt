@@ -1,0 +1,7 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9
+librosa==0.10.2
+numpy==2.0.2
+scikit-learn==1.5.2
+tensorflow-cpu==2.17.0
