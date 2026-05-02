@@ -57,7 +57,7 @@ py -3.11 -m ipykernel install --user --name py311 --display-name "Python 3.11"
 ```
 
 ### 4. Train the model
-- Open `aai-mini-project.ipynb` in Jupyter
+- Open `main.ipynb` in Jupyter
 - Switch kernel to **Python 3.11**
 - Update paths in the notebook:
   - `save_mfcc(...)` → use `"genres_original"` and `"processed.json"`
