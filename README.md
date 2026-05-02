@@ -4,16 +4,6 @@ An end-to-end AI-powered music genre classification web app built with a CNN tra
 
 ---
 
-## 👥 Team
-
-| Name | Enrollment |
-|------|------------|
-| Ali Arsalan Siddiqui | 02-134241-081 |
-| Ansa Batool | 02-134241-055 |
-| Munesha | — |
-
----
-
 ## 🧠 How It Works
 
 1. User uploads an audio file (MP3, WAV, FLAC, OGG, M4A)
