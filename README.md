@@ -1,4 +1,4 @@
-🎵 AI Music Genre Classifier
+🎵 AI Music Genre Classifier <br>
 An end-to-end AI-powered music genre classification web app built with a CNN trained on the GTZAN dataset, served via FastAPI, with a modern drag-and-drop frontend.
 link to deployed webservice: https://music-genre-classifier-j13y.onrender.com
 
